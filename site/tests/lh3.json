@@ -1,0 +1,162 @@
+{
+ "/": {
+  "simulate": {
+   "perf": 100,
+   "a11y": 100,
+   "seo": 100,
+   "lcp": 1.43,
+   "cls": 0,
+   "tbt": 53,
+   "fails": []
+  },
+  "devtools": {
+   "perf": 100,
+   "a11y": 100,
+   "seo": 100,
+   "lcp": 1.49,
+   "cls": 0,
+   "tbt": 55,
+   "fails": []
+  }
+ },
+ "/work": {
+  "simulate": {
+   "perf": 100,
+   "a11y": 100,
+   "seo": 100,
+   "lcp": 1.36,
+   "cls": 0,
+   "tbt": 24,
+   "fails": []
+  },
+  "devtools": {
+   "perf": 100,
+   "a11y": 100,
+   "seo": 100,
+   "lcp": 1.49,
+   "cls": 0,
+   "tbt": 50,
+   "fails": []
+  }
+ },
+ "/work/pet-agents": {
+  "simulate": {
+   "perf": 100,
+   "a11y": 100,
+   "seo": 100,
+   "lcp": 1.36,
+   "cls": 0,
+   "tbt": 27,
+   "fails": []
+  },
+  "devtools": {
+   "perf": 100,
+   "a11y": 100,
+   "seo": 100,
+   "lcp": 1.45,
+   "cls": 0,
+   "tbt": 63,
+   "fails": []
+  }
+ },
+ "/work/phishing-email-analyzer": {
+  "simulate": {
+   "perf": 100,
+   "a11y": 100,
+   "seo": 100,
+   "lcp": 1.35,
+   "cls": 0,
+   "tbt": 38,
+   "fails": []
+  },
+  "devtools": {
+   "perf": 100,
+   "a11y": 100,
+   "seo": 100,
+   "lcp": 1.45,
+   "cls": 0,
+   "tbt": 58,
+   "fails": []
+  }
+ },
+ "/work/english-winglish": {
+  "simulate": {
+   "perf": 100,
+   "a11y": 100,
+   "seo": 100,
+   "lcp": 1.35,
+   "cls": 0,
+   "tbt": 24,
+   "fails": []
+  },
+  "devtools": {
+   "perf": 99,
+   "a11y": 100,
+   "seo": 100,
+   "lcp": 1.53,
+   "cls": 0,
+   "tbt": 103,
+   "fails": []
+  }
+ },
+ "/work/tracker": {
+  "simulate": {
+   "perf": 98,
+   "a11y": 100,
+   "seo": 100,
+   "lcp": 1.35,
+   "cls": 0,
+   "tbt": 174,
+   "fails": []
+  },
+  "devtools": {
+   "perf": 100,
+   "a11y": 100,
+   "seo": 100,
+   "lcp": 1.42,
+   "cls": 0,
+   "tbt": 43,
+   "fails": []
+  }
+ },
+ "/playground": {
+  "simulate": {
+   "perf": 100,
+   "a11y": 100,
+   "seo": 100,
+   "lcp": 1.43,
+   "cls": 0,
+   "tbt": 37,
+   "fails": []
+  },
+  "devtools": {
+   "perf": 100,
+   "a11y": 100,
+   "seo": 100,
+   "lcp": 1.44,
+   "cls": 0,
+   "tbt": 55,
+   "fails": []
+  }
+ },
+ "/about": {
+  "simulate": {
+   "perf": 100,
+   "a11y": 100,
+   "seo": 100,
+   "lcp": 1.5,
+   "cls": 0,
+   "tbt": 26,
+   "fails": []
+  },
+  "devtools": {
+   "perf": 100,
+   "a11y": 100,
+   "seo": 100,
+   "lcp": 1.48,
+   "cls": 0,
+   "tbt": 49,
+   "fails": []
+  }
+ }
+}

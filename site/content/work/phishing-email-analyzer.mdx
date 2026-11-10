@@ -1,0 +1,39 @@
+export const meta = {
+  title: 'Phishing Email Analyzer',
+  order: 2,
+  hue: '#F0564A',
+  art: 'phish',
+  summary: 'First-pass phishing triage with a verdict you can audit, tested on 8,612 real emails.',
+  tags: 'Python · security',
+  role: 'Solo build, during my Accenture internship',
+  year: '2026',
+  stack: 'Python · Streamlit · security',
+  hook: 'I tested my phishing detector against 8,612 real phishing emails. Looking at headers and content alone, it never once reached a "Phishing" verdict.',
+  links: [{ label: 'GitHub', href: 'https://github.com/Rk1805/Phishing-Email-Analyzer' }],
+}
+
+## The problem
+
+When someone reports a suspicious email, a SOC analyst spends the first minute on the same checks every time: does it pass authentication, are the links or IPs known-bad, and what's the verdict? That minute is repetitive and worth automating — but only if the analyst can see why the tool decided what it did.
+
+## The insight
+
+Authentication checks are not enough. Across all 8,612 samples, header and content heuristics peaked at 61 out of 100, below the Phishing threshold of 70. One live credential lure passed SPF, DKIM and DMARC completely. What separates phishing from legitimate mail in practice is reputation: checking the links and IPs against live threat intelligence.
+
+## The build
+
+- A five-stage pipeline of independently tested Python modules: parse the `.eml`, extract indicators, enrich them, score, display.
+- Validates SPF, DKIM and DMARC. Extracts URLs, IPs, domains and attachment hashes, and defangs every one before it is shown.
+- Enriches against three live services — VirusTotal, AbuseIPDB and URLScan.io — with rate limiting, exponential backoff and caching.
+- A weighted 0–100 risk score with a verdict (Legitimate / Suspicious / Phishing) and an itemised list of which signals added how many points.
+- A Streamlit dashboard for upload and review, with an offline heuristics-only mode.
+- Security handled as a requirement: keys in a gitignored `.env` under personal accounts, no extracted URL ever visited, attachments hashed in memory and never written to disk.
+
+## The result
+
+- Validated against **8,612** real phishing emails plus two legitimate-mail datasets.
+- **17 of 17** unit tests passing.
+- False-positive rate **0.4%** on 500 legitimate emails and **0.0%** on 1,000 more (content-heuristic layer).
+- On a 12-email live subset, limited by API rate limits, threat-intel enrichment raised exact Phishing matches from **0% to 41.7%**, and Suspicious-or-Phishing flagging from **18.7% to 83.3%**.
+- Two real evasion techniques found and documented: brand names disguised with Unicode combining marks, and phishing hosted on a legitimate Google Apps Script domain.
+- A dataset turned out to contain real victims' personal data; a pre-commit check caught it before anything was staged.

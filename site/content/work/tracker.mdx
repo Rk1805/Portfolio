@@ -1,0 +1,34 @@
+export const meta = {
+  title: 'Tracker',
+  order: 4,
+  hue: '#B5E853',
+  art: 'route',
+  summary: 'One field-tracking app with four roles: admin, driver, salesman, customer.',
+  tags: 'React Native · Firebase · maps',
+  role: 'Solo build',
+  year: '2026',
+  stack: 'React Native (Expo) · Firebase · maps',
+  hook: "One app, four different jobs: the admin sees the whole map, the driver sees today's rides, the salesman sees his leads, and the customer sees where the delivery is.",
+  links: [{ label: 'GitHub', href: 'https://github.com/Rk1805/Tracker' }],
+}
+
+## The problem
+
+Plenty of businesses deliver using local autos, and send salesmen out to find new clients. The owner then has two things they can't see: how far each auto actually travelled, and how much ground each salesman covered looking for clients.
+
+## The insight
+
+Tracking people is really four products sharing one set of data. Give each role only its own screens, and the app stays simple for everyone.
+
+## The build
+
+- A React Native app with Expo and file-based routing, split into four role areas — admin, driver, salesman, customer — behind a role guard.
+- **Admin:** creates a ride for an auto and gets the best route based on where the parties are; live map, trips, parties, lead verification, analytics.
+- **Driver:** trips and daily rides, with distance travelled tracked in the background.
+- **Salesman:** adds a potential client with their location and details; the app records how far he travelled that day searching for clients.
+- **Customer:** a separate login and a track screen.
+- Firebase for auth and data with security rules; maps with planned-route directions; trip distance and stops calculated from the recorded track.
+
+## The result
+
+A working four-role app, built solo. No usage numbers are claimed.

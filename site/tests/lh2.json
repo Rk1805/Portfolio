@@ -1,0 +1,24 @@
+{
+ "/": {
+  "simulate": {
+   "perf": 99,
+   "a11y": 100,
+   "seo": 100,
+   "lcp": 2.22,
+   "cls": 0,
+   "tbt": 45,
+   "fails": []
+  }
+ },
+ "/work/english-winglish": {
+  "simulate": {
+   "perf": 100,
+   "a11y": 100,
+   "seo": 100,
+   "lcp": 1.81,
+   "cls": 0,
+   "tbt": 21,
+   "fails": []
+  }
+ }
+}

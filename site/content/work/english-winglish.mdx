@@ -1,0 +1,35 @@
+export const meta = {
+  title: 'English Winglish',
+  order: 3,
+  hue: '#45C8E0',
+  art: 'bilingual',
+  summary: 'Bilingual exam-prep app for students, with an admin panel for the teacher.',
+  tags: 'React Native · Next.js · Supabase',
+  role: 'Solo build',
+  year: '2026',
+  stack: 'React Native (Expo) · Next.js · Supabase',
+  hook: 'An exam-prep app with no login screen. Students open it and are practising on the first tap.',
+  links: [{ label: 'GitHub', href: 'https://github.com/Rk1805/English_Winglish' }],
+}
+
+## The problem
+
+Students preparing for competitive exams in Gujarat and across India — GPSC, GSSSB, SSC, Railway, Banking, Police, Talati, TET/TAT, UPSC — need English grammar practice, previous-year questions and mock tests, in both English and Gujarati. And the teacher behind the content needs to add and fix questions without calling a developer.
+
+## The insight
+
+Two different users, two different products. Students get a fast mobile app with nothing in the way. The teacher gets a separate web admin panel. One database sits between them, with the rules about who can read and write enforced in the database, not just in the screens.
+
+## The build
+
+- Student app in React Native with Expo: grammar practice, previous-year questions, mock tests with a leaderboard, PDFs, videos and notes, all bilingual.
+- Admin panel in Next.js for questions, content and users.
+- Supabase (PostgreSQL) backend, shaped over 13 migrations. One question can serve both grammar practice and previous-year papers.
+- Row-level security on every table: students read active content and their own attempts; only admins write content.
+- True random question sampling, added after practice sets were being dominated by a single topic.
+- Runs on bundled sample questions with no backend, so the whole interface can be explored offline.
+- In-app reporting so students can flag a wrong question for the admin to resolve.
+
+## The result
+
+Still in the making, with a Play Store release planned. The admin panel is deployed and an Android build exists. Built for my uncle, Nikunj Sir, whose teaching the app carries. No user numbers are claimed.

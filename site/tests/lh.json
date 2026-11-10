@@ -1,0 +1,186 @@
+{
+ "/": {
+  "simulate": {
+   "perf": 65,
+   "a11y": 100,
+   "seo": 100,
+   "lcp": 3.73,
+   "cls": 0,
+   "tbt": 1123,
+   "fails": []
+  },
+  "devtools": {
+   "perf": 97,
+   "a11y": 100,
+   "seo": 100,
+   "lcp": 1.84,
+   "cls": 0,
+   "tbt": 152,
+   "fails": []
+  }
+ },
+ "/work": {
+  "simulate": {
+   "perf": 98,
+   "a11y": 100,
+   "seo": 100,
+   "lcp": 2.37,
+   "cls": 0,
+   "tbt": 33,
+   "fails": []
+  },
+  "devtools": {
+   "perf": 100,
+   "a11y": 100,
+   "seo": 100,
+   "lcp": 1.54,
+   "cls": 0,
+   "tbt": 62,
+   "fails": []
+  }
+ },
+ "/work/pet-agents": {
+  "simulate": {
+   "perf": 98,
+   "a11y": 100,
+   "seo": 100,
+   "lcp": 2.35,
+   "cls": 0,
+   "tbt": 22,
+   "fails": []
+  },
+  "devtools": {
+   "perf": 100,
+   "a11y": 100,
+   "seo": 100,
+   "lcp": 1.52,
+   "cls": 0,
+   "tbt": 47,
+   "fails": []
+  }
+ },
+ "/work/phishing-email-analyzer": {
+  "simulate": {
+   "perf": 98,
+   "a11y": 100,
+   "seo": 100,
+   "lcp": 2.34,
+   "cls": 0,
+   "tbt": 18,
+   "fails": []
+  },
+  "devtools": {
+   "perf": 100,
+   "a11y": 100,
+   "seo": 100,
+   "lcp": 1.52,
+   "cls": 0,
+   "tbt": 55,
+   "fails": []
+  }
+ },
+ "/work/english-winglish": {
+  "simulate": {
+   "perf": 80,
+   "a11y": 100,
+   "seo": 100,
+   "lcp": 1.75,
+   "cls": 0,
+   "tbt": 830,
+   "fails": []
+  },
+  "devtools": {
+   "perf": 98,
+   "a11y": 100,
+   "seo": 100,
+   "lcp": 1.7,
+   "cls": 0,
+   "tbt": 98,
+   "fails": []
+  }
+ },
+ "/work/tracker": {
+  "simulate": {
+   "perf": 98,
+   "a11y": 100,
+   "seo": 100,
+   "lcp": 2.36,
+   "cls": 0,
+   "tbt": 29,
+   "fails": []
+  },
+  "devtools": {
+   "perf": 100,
+   "a11y": 100,
+   "seo": 100,
+   "lcp": 1.53,
+   "cls": 0,
+   "tbt": 58,
+   "fails": []
+  }
+ },
+ "/playground": {
+  "simulate": {
+   "perf": 98,
+   "a11y": 100,
+   "seo": 100,
+   "lcp": 2.36,
+   "cls": 0,
+   "tbt": 28,
+   "fails": []
+  },
+  "devtools": {
+   "perf": 100,
+   "a11y": 100,
+   "seo": 100,
+   "lcp": 1.53,
+   "cls": 0,
+   "tbt": 48,
+   "fails": []
+  }
+ },
+ "/about": {
+  "simulate": {
+   "perf": 99,
+   "a11y": 100,
+   "seo": 100,
+   "lcp": 2.21,
+   "cls": 0,
+   "tbt": 49,
+   "fails": []
+  },
+  "devtools": {
+   "perf": 100,
+   "a11y": 100,
+   "seo": 100,
+   "lcp": 1.51,
+   "cls": 0,
+   "tbt": 47,
+   "fails": []
+  }
+ },
+ "/blog": {
+  "simulate": {
+   "perf": 96,
+   "a11y": 100,
+   "seo": 66,
+   "lcp": 2.36,
+   "cls": 0,
+   "tbt": 156,
+   "fails": [
+    "is-crawlable"
+   ]
+  },
+  "devtools": {
+   "perf": 99,
+   "a11y": 100,
+   "seo": 66,
+   "lcp": 1.62,
+   "cls": 0,
+   "tbt": 78,
+   "fails": [
+    "is-crawlable"
+   ]
+  }
+ }
+}

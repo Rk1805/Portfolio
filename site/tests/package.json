@@ -1,0 +1,1 @@
+{"name":"portfolio-qa","private":true,"scripts":{"test":"playwright test"},"devDependencies":{"@playwright/test":"^1.48.0","@axe-core/playwright":"^4.10.0","lighthouse":"^12.2.0","chrome-launcher":"^1.1.2"}}

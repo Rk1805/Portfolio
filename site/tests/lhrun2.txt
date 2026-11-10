@@ -1,0 +1,8 @@
+/ {"simulate":{"perf":100,"a11y":100,"seo":100,"lcp":1.5,"cls":0,"tbt":25,"fails":[]}}
+/work {"simulate":{"perf":100,"a11y":100,"seo":100,"lcp":1.35,"cls":0,"tbt":30,"fails":[]}}
+/work/pet-agents {"simulate":{"perf":100,"a11y":100,"seo":100,"lcp":1.35,"cls":0,"tbt":25,"fails":[]}}
+/work/phishing-email-analyzer {"simulate":{"perf":100,"a11y":100,"seo":100,"lcp":1.35,"cls":0,"tbt":23,"fails":[]}}
+/work/english-winglish {"simulate":{"perf":100,"a11y":100,"seo":100,"lcp":1.35,"cls":0,"tbt":22,"fails":[]}}
+/work/tracker {"simulate":{"perf":100,"a11y":100,"seo":100,"lcp":1.35,"cls":0,"tbt":29,"fails":[]}}
+/playground {"simulate":{"perf":100,"a11y":100,"seo":100,"lcp":1.43,"cls":0,"tbt":27,"fails":[]}}
+/about {"simulate":{"perf":100,"a11y":100,"seo":100,"lcp":1.5,"cls":0,"tbt":23,"fails":[]}}
